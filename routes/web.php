@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
+#prueba redireccionar
 Route::get('/', function(){
     return view('holamundo',['nombre'=>'Inicia sistema de inventario']);
 });
