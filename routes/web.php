@@ -14,11 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('holamundo', function(){
+Route::get('/', function(){
     return view('holamundo',['nombre'=>'Inicia sistema de inventario']);
 });
 
 
-Route::get('/', function () {
+Route::get('welcome', function () {
     return view('welcome');
 });
