@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('holamundo', function(){
-    return view('holamundo',['nombre'=>'Mundo Laravel']);
+    return view('holamundo',['nombre'=>'Inicia sistema de inventario']);
 });
 
 
